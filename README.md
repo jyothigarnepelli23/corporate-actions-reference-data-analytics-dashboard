@@ -1,6 +1,6 @@
-# Corporate Actions Analytics Dashboard
+# Corporate Actions & Reference Data Analytics Dashboard
 
-This project analyzes corporate action events using SQL, Excel, and Power BI. It includes SQL analysis, Excel dashboards, and an interactive Power BI dashboard to explore corporate action data.
+This project analyzes corporate action and reference data events using SQL, Excel, Power Query, and Power BI. It includes SQL analysis, data transformation, Excel dashboards, and an interactive Power BI dashboard to simulate reference data and capital markets operations workflows.
 
 ---
 
@@ -8,12 +8,15 @@ This project analyzes corporate action events using SQL, Excel, and Power BI. It
 
 This project covers:
 
+- Corporate Actions & Reference Data Analysis
 - SQL data analysis
+- SQL Views
 - Excel KPI Dashboard
 - SQL Dashboard
 - Interactive Power BI Dashboard
-- Data cleaning using Power Query
+- Data cleaning and transformation using Power Query
 - Data modeling
+- Reference data validation
 - Data quality checks
 
 ---
@@ -22,17 +25,17 @@ This project covers:
 
 | Tool | Purpose |
 |------|---------|
-| MySQL Workbench | SQL Queries |
+| MySQL Workbench | SQL Queries & Views |
 | Microsoft Excel | KPI Dashboard |
 | Power BI | Interactive Dashboard |
-| Power Query | Data Cleaning |
+| Power Query | Data Cleaning & Transformation |
 | GitHub | Project Documentation |
 
 ---
 
 ## Dataset
 
-The dataset contains information about corporate action events including:
+The dataset contains **250 corporate action events** across **U.S. and Canadian markets**, including:
 
 - Company Name
 - Country
@@ -49,12 +52,14 @@ The dataset contains information about corporate action events including:
 
 SQL was used to:
 
-- Count companies
-- Count countries
-- Count sectors
-- Count event types
-- Create Views
+- Company analysis
+- Country analysis
+- Sector analysis
+- Event type analysis
+- Create SQL Views
 - Perform aggregations
+- Reference data validation
+- Data quality checks
 
 The SQL file is available in:
 
@@ -66,7 +71,7 @@ corporate_actions_queries.sql
 
 ## Power BI Dashboard
 
-The Power BI report contains three pages.
+The Power BI report contains **3 interactive pages**.
 
 ### Executive Overview
 
@@ -124,18 +129,19 @@ Includes:
 
 ## Key Insights
 
-- Total corporate action events: 250
-- 15 unique companies analyzed
-- Canada recorded the highest number of events.
+- Analyzed **250 corporate action events** across **U.S. and Canadian markets**.
+- **15 unique companies** were analyzed.
+- Canada recorded the highest number of corporate action events.
 - Consumer Goods was the top sector.
-- Tender Offer and Rights Issue were the most common event types.
+- Tender Offers and Rights Issues were the most common corporate action event types.
+- Performed reference data validation and data quality checks using dashboard metrics.
 
 ---
 
 ## Repository Structure
 
 ```
-corporate-actions-dashboard/
+corporate-actions-reference-data-analytics/
 
 │── README.md
 │── LICENSE
@@ -203,9 +209,11 @@ corporate-actions-dashboard/
 
 Through this project, I learned:
 
-- SQL querying
-- Data cleaning
-- Excel dashboards
+- SQL query development
+- SQL Views
+- Data cleaning and transformation
+- Reference data validation
+- Excel KPI dashboard development
 - Power BI dashboard development
 - Power Query transformations
 - Data modeling
